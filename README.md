@@ -8,18 +8,18 @@ The script was written and tested in RStudio Version 1.0.143 using R version 3.4
 
 3. The directory was moved up one level to the "UCI HAR Dataset" folder.
 
-4. Each file from the "test" dataset was loaded separately and combined into a single object using cbind.
+4. Each file from the "test" dataset was loaded separately and combined into a single object using the cbind function.
 This was done for the "train" dataset as well. 
 
 5. The "test" and "train" objects were combined into a single "raw_data" object with rbind.
 
-6. The column headers were changed to remove duplicate header names to make downstream naming operations easier.
+6. The column headers were replaced with "V1:V563" to remove duplicate header names to make downstream naming operations easier.
 
-7. The data frame was converted to a format used by dplyr using tbl_df.
+7. The data frame was converted to a format used by dplyr using the tbl_df function.
 
-8. The variable labels that are stored in the "features.text" file in a messy form were loaded into the object "variables1".
+8. The variable labels that are stored in the "features.text" file in a non-descriptive form were loaded into the object "variables1".
 
-9. The leading numbers in "variables1" were removed using gsub and regular expression matching.  
+9. The leading numbers in "variables1" were removed using the gsub function and regular expression matching.  
 
 10. The "subject" and "test" labels were appended to the beginnning of "variables1".
 
@@ -46,7 +46,8 @@ This was done for the "train" dataset as well.
   The data is tidy because each column contains a different observation, and each row contains the data from a single time-point.
 
   
-		"5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject."
+		"5. From the data set in step 4, creates a second, independent tidy data set with the average
+		of each variable for each activity and each subject."
 		
 18. This step was accomplished by using tidyr::group_by to group the "tidy_data" object by both subject and activity.
 
