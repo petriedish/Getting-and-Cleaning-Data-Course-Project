@@ -1,0 +1,84 @@
+Study design:
+	This experiment was carried out using 30 volunteers performing six activities: laying, sitting, standing, walking, walking downstairs and walking upstairs.  A cell phone with an accelerometer and a gyroscope was attached at the hip of each subject during these activities.  The raw readings were processed to give each of the variables in the data set.
+
+Variables:
+	 [1] "subject"                                                                           
+	 [2] "test"                                                                              
+	 [3] "linear_body_acceleration_mean_on_the_x_axis"                                       
+	 [4] "linear_body_acceleration_mean_on_the_y_axis"                                       
+	 [5] "linear_body_acceleration_mean_on_the_z_axis"                                       
+	 [6] "linear_body_acceleration_standard_deviation_on_the_x_axis"                         
+	 [7] "linear_body_acceleration_standard_deviation_on_the_y_axis"                         
+	 [8] "linear_body_acceleration_standard_deviation_on_the_z_axis"                         
+	 [9] "linear_acceleration_due_to_gravity_mean_on_the_x_axis"                             
+	[10] "linear_acceleration_due_to_gravity_mean_on_the_y_axis"                             
+	[11] "linear_acceleration_due_to_gravity_mean_on_the_z_axis"                             
+	[12] "linear_acceleration_due_to_gravity_standard_deviation_on_the_x_axis"               
+	[13] "linear_acceleration_due_to_gravity_standard_deviation_on_the_y_axis"               
+	[14] "linear_acceleration_due_to_gravity_standard_deviation_on_the_z_axis"               
+	[15] "linear_body_acceleration_jerk_mean_on_the_x_axis"                                  
+	[16] "linear_body_acceleration_jerk_mean_on_the_y_axis"                                  
+	[17] "linear_body_acceleration_jerk_mean_on_the_z_axis"                                  
+	[18] "linear_body_acceleration_jerk_standard_deviation_on_the_x_axis"                    
+	[19] "linear_body_acceleration_jerk_standard_deviation_on_the_y_axis"                    
+	[20] "linear_body_acceleration_jerk_standard_deviation_on_the_z_axis"                    
+	[21] "angular_body_velocity_mean_on_the_x_axis"                                          
+	[22] "angular_body_velocity_mean_on_the_y_axis"                                          
+	[23] "angular_body_velocity_mean_on_the_z_axis"                                          
+	[24] "angular_body_velocity_standard_deviation_on_the_x_axis"                            
+	[25] "angular_body_velocity_standard_deviation_on_the_y_axis"                            
+	[26] "angular_body_velocity_standard_deviation_on_the_z_axis"                            
+	[27] "angular_body_velocity_jerk_mean_on_the_x_axis"                                     
+	[28] "angular_body_velocity_jerk_mean_on_the_y_axis"                                     
+	[29] "angular_body_velocity_jerk_mean_on_the_z_axis"                                     
+	[30] "angular_body_velocity_jerk_standard_deviation_on_the_x_axis"                       
+	[31] "angular_body_velocity_jerk_standard_deviation_on_the_y_axis"                       
+	[32] "angular_body_velocity_jerk_standard_deviation_on_the_z_axis"                       
+	[33] "magnitude_of_linear_body_acceleration_mean"                                        
+	[34] "magnitude_of_linear_body_acceleration_standard_deviation"                          
+	[35] "magnitude_of_linear_acceleration_due_to_gravity_mean"                              
+	[36] "magnitude_of_linear_acceleration_due_to_gravity_standard_deviation"                
+	[37] "magnitude_of_linear_body_acceleration_jerk_mean"                                   
+	[38] "magnitude_of_linear_body_acceleration_jerk_standard_deviation"                     
+	[39] "magnitude_of_angular_body_velocity_mean"                                           
+	[40] "magnitude_of_angular_body_velocity_standard_deviation"                             
+	[41] "magnitude_of_angular_body_velocity_jerk_mean"                                      
+	[42] "magnitude_of_angular_body_velocity_jerk_standard_deviation"                        
+	[43] "fourier_transformed_linear_body_acceleration_mean_on_the_x_axis"                   
+	[44] "fourier_transformed_linear_body_acceleration_mean_on_the_y_axis"                   
+	[45] "fourier_transformed_linear_body_acceleration_mean_on_the_z_axis"                   
+	[46] "fourier_transformed_linear_body_acceleration_standard_deviation_on_the_x_axis"     
+	[47] "fourier_transformed_linear_body_acceleration_standard_deviation_on_the_y_axis"     
+	[48] "fourier_transformed_linear_body_acceleration_standard_deviation_on_the_z_axis"     
+	[49] "fourier_transformed_linear_body_acceleration_jerk_mean_on_the_x_axis"              
+	[50] "fourier_transformed_linear_body_acceleration_jerk_mean_on_the_y_axis"              
+	[51] "fourier_transformed_linear_body_acceleration_jerk_mean_on_the_z_axis"              
+	[52] "fourier_transformed_linear_body_acceleration_jerk_standard_deviation_on_the_x_axis"
+	[53] "fourier_transformed_linear_body_acceleration_jerk_standard_deviation_on_the_y_axis"
+	[54] "fourier_transformed_linear_body_acceleration_jerk_standard_deviation_on_the_z_axis"
+	[55] "fourier_transformed_angular_body_velocity_mean_on_the_x_axis"                      
+	[56] "fourier_transformed_angular_body_velocity_mean_on_the_y_axis"                      
+	[57] "fourier_transformed_angular_body_velocity_mean_on_the_z_axis"                      
+	[58] "fourier_transformed_angular_body_velocity_standard_deviation_on_the_x_axis"        
+	[59] "fourier_transformed_angular_body_velocity_standard_deviation_on_the_y_axis"        
+	[60] "fourier_transformed_angular_body_velocity_standard_deviation_on_the_z_axis"        
+	[61] "fourier_transformed_magnitude_of_linear_body_acceleration_mean"                    
+	[62] "fourier_transformed_magnitude_of_linear_body_acceleration_standard_deviation"      
+	[63] "fourier_transformed_magnitude_of_linear_body_acceleration_jerk_mean"               
+	[64] "fourier_transformed_magnitude_of_linear_body_acceleration_jerk_standard_deviation" 
+	[65] "fourier_transformed_magnitude_of_angular_body_velocity_mean"                       
+	[66] "fourier_transformed_magnitude_of_angular_body_velocity_standard_deviation"         
+	[67] "fourier_transformed_magnitude_of_angular_body_velocity_jerk_mean"                  
+	[68] "fourier_transformed_magnitude_of_angular_body_velocity_jerk_standard_deviation"
+
+	*Units for linear acceleration are standard gravity units 'g'
+	*Units for angular velocity are radians/second
+
+Summary choices:
+	The data was contained in two folders labled "test" and "train".  Three files were utilized from each folder.  "subject_test/train" contained the subject id, "X_test/train" contained the collected variables, and "Y_test/train" contained the activities in a coded format. The train files and test files were each combined to include the subject id, the descriptive activity name and all of the variables listed above, with descriptive names.  These two files were combined again into a single data set and sorted by subject id in ascending order, then by activity in ascending alphabetical order.  The select command in the R-packaged dplyr was used to only include the variables that contain the mean or standard deviation of the data point.  This data is tidy because each row contains one data point obtained over a short period of time from the accelerometer and gyroscope that was processed into each of the variables listed above.
+
+	For the second data set that is being submitted, the gather command in the R-package tidyr was used to group the data by subject id and activity.  The mean of the values for the variables in each group was computed by using the summarize command in dplyr.	This data is also tidy because it contains one variable per column and each variable has a descriptive name.
+
+The reference for this dataset is:
+
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
