@@ -1,6 +1,6 @@
-This is an explanation of the script submitted for the Getting and Cleaning Data Course Project
-This project was authored by Peter Van Laarhoven, petriedish@gmail.com
-The script was written and tested in RStudio Version 1.0.143 using R version 3.4.1 in Windows 10
+This is an explanation of the script submitted for the Getting and Cleaning Data Course Project.
+This project was authored by Peter Van Laarhoven, petriedish@gmail.com. 
+The script was written and tested in RStudio Version 1.0.143 using R version 3.4.1 in Windows 10. 
 
 1. The three library dependencies were loaded: dplyr, RCurl, and tidyr.
 
